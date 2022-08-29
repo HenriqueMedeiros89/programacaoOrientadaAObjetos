@@ -28,8 +28,41 @@ public class Barco {
         this.tipo = tipo;
     }
     
+      public String getTamanho (){
+        return tamanho;
+        
+    }
     
+    public void setTamanho(String tamanho){
+        this.tamanho = tamanho;
+    }
     
+      public String getCombustivel (){
+        return combustivel;
+        
+    }
+    
+    public void setCombustivel(String combustivel){
+        this.combustivel = combustivel;
+    }
+    
+      public String getCor (){
+        return cor;
+        
+    }
+    
+    public void setCor(String cor){
+        this.cor = cor;
+    }
+    
+      public int getAno (){
+        return ano;
+        
+    }
+    
+    public void setNome(int ano){
+        this.ano = ano;
+    }
 
     
 }
