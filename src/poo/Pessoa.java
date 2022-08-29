@@ -3,6 +3,7 @@ package poo;
 public class Pessoa {
     
     String nome;
+    String altura;
     String corDoCabelo;
     String biotipo;
     int idade;
@@ -14,6 +15,15 @@ public class Pessoa {
     
     public void setNome(String nome){
         this.nome = nome;
+    }
+    
+     public String getAltura (){
+        return altura;
+        
+    }
+    
+    public void setAltura(String altura){
+        this.altura = altura;
     }
     
     public String getCorDoCabelo (){
