@@ -60,7 +60,7 @@ public class Barco {
         
     }
     
-    public void setNome(int ano){
+    public void setAno(int ano){
         this.ano = ano;
     }
 

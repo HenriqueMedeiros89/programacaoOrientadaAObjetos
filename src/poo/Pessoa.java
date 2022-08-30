@@ -8,6 +8,16 @@ public class Pessoa {
     String biotipo;
     int idade;
 
+    void imprimeDadosPessoa() {
+        System.out.println("----------Pessoa----------");
+        System.out.println("Nome: " + nome);
+        System.out.println("Altura " + altura);
+        System.out.println("Cor do Cabelo: " + corDoCabelo);
+        System.out.println("Biotipo: " + biotipo);
+        System.out.println("Idade: " + idade);
+
+    }
+
     public String getNome() {
         return nome;
 
@@ -52,6 +62,5 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-
 
 }
