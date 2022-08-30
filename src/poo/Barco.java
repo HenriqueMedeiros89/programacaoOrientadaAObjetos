@@ -1,68 +1,77 @@
 package poo;
 
 public class Barco {
+
     String nome;
     String tipo;
     String tamanho;
     String combustivel;
     String cor;
     int ano;
-    
-    
-    public String getNome (){
-        return nome;
-        
+
+    void imprimeDadosDoBarco() {
+        System.out.println("----------Barco---------");
+        System.out.println("Nome: " + nome);
+        System.out.println("Cor: " + cor);
+        System.out.println("Tamanho: " + tamanho);
+        System.out.println("Combustivel: " + combustivel);
+        System.out.println("Modelo: " + tipo);
+        System.out.println("Ano: " + ano);
+
     }
-    
-    public void setNome(String nome){
+
+    public String getNome() {
+        return nome;
+
+    }
+
+    public void setNome(String nome) {
         this.nome = nome;
     }
-    
-    
-    public String getTipo (){
+
+    public String getTipo() {
         return tipo;
-        
+
     }
-    
-    public void setTipo(String tipo){
+
+    public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-    
-      public String getTamanho (){
+
+    public String getTamanho() {
         return tamanho;
-        
+
     }
-    
-    public void setTamanho(String tamanho){
+
+    public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
     }
-    
-      public String getCombustivel (){
+
+    public String getCombustivel() {
         return combustivel;
-        
+
     }
-    
-    public void setCombustivel(String combustivel){
+
+    public void setCombustivel(String combustivel) {
         this.combustivel = combustivel;
     }
-    
-      public String getCor (){
+
+    public String getCor() {
         return cor;
-        
+
     }
-    
-    public void setCor(String cor){
+
+    public void setCor(String cor) {
         this.cor = cor;
     }
-    
-      public int getAno (){
+
+    public int getAno() {
         return ano;
-        
+
     }
-    
-    public void setAno(int ano){
+
+    public void setAno(int ano) {
         this.ano = ano;
     }
 
-    
 }

@@ -11,12 +11,16 @@ public class Poo {
       meuCarro.setPlaca("YPM-4262");
       meuCarro.setTipo("Corsa");
       
+      meuCarro.imprimeDadosDoCarro();
+      
       Pessoa humano = new Pessoa ();
       humano.setNome("Jorjin do Pneu");
       humano.setAltura("1.81");
       humano.setCorDoCabelo("Preto");
       humano.setBiotipo("Magro");
       humano.setIdade(18);
+      
+      humano.imprimeDadosPessoa();
       
       Barco meubarco = new Barco();
       meubarco.setNome("New Bering");
@@ -25,6 +29,9 @@ public class Poo {
       meubarco.setTamanho("250 Metros");
       meubarco.setTipo("Pesqueiro");
       meubarco.setAno(2008);
+      
+      
+      meubarco.imprimeDadosDoBarco();
         
        
     }
