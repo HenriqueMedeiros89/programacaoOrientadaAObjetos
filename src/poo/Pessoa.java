@@ -1,58 +1,56 @@
 package poo;
 
 public class Pessoa {
-    
+
     String nome;
     String altura;
     String corDoCabelo;
     String biotipo;
-    int idade;
-    
-    public String getNome (){
+    String idade;
+
+    public String getNome() {
         return nome;
-        
+
     }
-    
-    public void setNome(String nome){
+
+    public void setNome(String nome) {
         this.nome = nome;
     }
-    
-     public String getAltura (){
+
+    public String getAltura() {
         return altura;
-        
+
     }
-    
-    public void setAltura(String altura){
+
+    public void setAltura(String altura) {
         this.altura = altura;
     }
-    
-    public String getCorDoCabelo (){
+
+    public String getCorDoCabelo() {
         return corDoCabelo;
-        
+
     }
-    
-    public void setCorDoCabelo(String corDoCabelo){
+
+    public void setCorDoCabelo(String corDoCabelo) {
         this.corDoCabelo = corDoCabelo;
     }
-    
-    public String getBiotipo (){
+
+    public String getBiotipo() {
         return biotipo;
-        
+
     }
-    
-    public void setBiotipo(String biotipo){
+
+    public void setBiotipo(String biotipo) {
         this.biotipo = biotipo;
     }
-    
-    public int getIdade (){
+
+    public String getIdade(String idade) {
         return idade;
-        
+
     }
-    
-    public void setIdade(int idade){
+
+    public void setIdade(String idade) {
         this.idade = idade;
     }
-    
-    
-    
+
 }
