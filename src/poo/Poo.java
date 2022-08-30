@@ -23,14 +23,14 @@ public class Poo {
     humano.setAltura("1.81");
     humano.setCorDoCabelo("Preto");
     humano.setBiotipo("Magro");
-    humano.setIdade("18");
+    humano.setIdade(18);
     
         System.out.println("----------Pessoa----------");
         System.out.println("Nome: " + humano.getNome());
         System.out.println("Altura " + humano.getAltura());
         System.out.println("Cor do Cabelo: " + humano.getCorDoCabelo()); 
         System.out.println("Biotipo: " + humano.getBiotipo());
-        //System.out.println("Idade: " + humano.getIdade());
+        System.out.println("Idade: " + humano.getIdade());
         
        
     }
